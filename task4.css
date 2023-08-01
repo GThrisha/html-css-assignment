@@ -1,0 +1,25 @@
+ul{
+    padding:0;
+    list-style: none;
+    background-color: rgb(126, 146, 228);
+}
+ul li{
+    display: inline-block;
+}
+ul li a{
+    display: block;
+    padding: 10px 25px;
+    color:black;
+    text-decoration: none;
+}
+ul li a:hover{
+    color:burlywood;
+    background-color: #ffccdd;
+    opacity: 0.8;
+}
+.navbar{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+}
